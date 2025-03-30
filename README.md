@@ -291,7 +291,7 @@ Store.get = (key) => {
 /**
  * Stores a value under a specific key.
  * @param {string} key - The key to store the value under.
- * @param {string} value - The value to store.
+ * @param {any} value - The value to store.
  */
 Store.set = (key, value) => {
     console.info("Saving", value, `in '${key}'`);
