@@ -272,7 +272,7 @@ new Picker({ i18n })
 Given the small file size, English is built-in and doesn’t need to be provided.
 
 ## 💾 Data Store
-By default EmojiMart will store user chosen skin and frequently used emojis in localStorage. That can however be overwritten if you can overwrite imports, should you want to store these in your own storage:
+By default EmojiMart will store user chosen skin and frequently used emojis in `localStorage`. That can however be overwritten if you can overwrite imports, should you want to store these in your own storage:
 
 ```js
 import { Store } from 'emoji-mart'
